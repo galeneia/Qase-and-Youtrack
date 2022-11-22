@@ -1,0 +1,58 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+,,,,,,,,,,,,,,,,,,,,16,2,"Mobile App Testing: Galina Fedina",1
+185,"Profile: user can choose a language in profile settings.",,"The app is installed.",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. 1\. Open the app\.
+2\. Tap on 'profile'\.
+3\. Check the function of language changing\.
+","1. The posibillity of changing language in app is presented.
+","1. 
+",,,16,2,"Mobile App Testing: Galina Fedina",
+186,"Registration: input correct phone number of an existing user.",,"The app is installed, the user is registrated before.",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. 1\. Open the app\.
+2\. Tap on 'profile'\.
+3\. Tap on 'registration' and input test data\.
+4\. The code in message is sent to user's phone\.
+5\. Input code from the message\.
+","1. The user was logged in.
+","1. +79819662971
+",,,16,2,"Mobile App Testing: Galina Fedina",
+187,"Registration: input phone number with a short length.",,"The app is installed",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. 1\. Open the app\.
+2\. Tap on 'profile'\.
+3\. Tap on 'registration' and input test data\.
+","1. The warning message about the short length of number is presented before clicking on ""get a code"".
+","1. +7124567
+",,,16,2,"Mobile App Testing: Galina Fedina",
+188,"Registration: input incorrect phone number with non-existing phone code.",,"The app is installed.",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. 1\. Open the app\.
+2\. Tap on 'profile'\.
+3\. Tap on 'registration' and input test data\.
+","1. The warning message 'incorrect number' is presented.
+","1. +00000022222
+",,,16,2,"Mobile App Testing: Galina Fedina",
+189,"Registration: input a phone number with a length more than 12 numbers.",,"The app is installed.",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. 1\. Open the app\.
+2\. Tap on 'profile'\.
+3\. Tap on 'registration' and input test data\.
+","1. The user can input more than 12 numbers into the field.
+","1. +898196629711
+",,,16,2,"Mobile App Testing: Galina Fedina",
+190,"Registration: user can be registered using e-mail.",,"The app is installed.",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. 1\. Open the app\.
+2\. Tap on 'profile'\.
+3\. Tap on 'registration' and try to input letters\.
+","1. User can input e-mail into registration field.
+","1. 
+",,,16,2,"Mobile App Testing: Galina Fedina",
+191,"Profile: the information about delivery, pickup-points, ways of payments, product refund, money refund, rules of using and general info is presented in profile settings.",,"The app is installed.",,,low,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. 1\. Open the app\.
+2\. Tap on 'profile'\.
+3\. Check the fields are described in summary\.
+","1. The information about delivery, pickup-points, ways of payments, product refund, money refund, rules of using and general info is presented in profile settings.
+","1. 
+",,,16,2,"Mobile App Testing: Galina Fedina",
+192,"Registration: the app suggests to log in via previous phone number after reinstalling.",,"The app is installed.",,,medium,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. 1\. Open the app\.
+2\. Tap on 'profile'\.
+3\. Tap on 'registration' and confirm logging in via previous phone number\.
+","1. The user can log in after app's reinstalling without inputting phone number again.
+","1. 
+",,,16,2,"Mobile App Testing: Galina Fedina",
+193,"Registration: user can be registered via real phone number from the country which is out from list (it's about the list of countries which cooperate with the market).",,"The app is installed.",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. 1\. Open the app\.
+2\. Tap on 'profile'\.
+3\. Tap on 'registration' and input test data\.
+","1. User can be registered via phone number from any country.
+","1. +420770101034
+",,,16,2,"Mobile App Testing: Galina Fedina",

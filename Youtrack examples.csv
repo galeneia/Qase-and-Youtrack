@@ -1,0 +1,386 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G11-203","group1.1","Star","Mobile App Testing: Galina Fedina","galinadvy","7 Nov 2022","9 Nov 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-238","group1.1","Star","User can't be registered via phone number from any country.","galinadvy","9 Nov 2022","9 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"No environment","G11-193","*Pre-conditions:* The app is installed.
+
+1\. Open the app.
+
+2\. Tap on 'profile'.
+
+3\. Tap on 'registration' and input test data.
+
+*Result:* User can't be registered via phone number from any country.
+
+*Expected result:* User can be registered via real phone number from any country which is out from list (it's about the list of countries which cooperate with the market).","0"
+"G11-237","group1.1","Star","User can't input e-mail into registration field.","galinadvy","9 Nov 2022","9 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"No environment","G11-190","*Pre-conditions:* The app is installed.
+
+1\. Open the app.
+
+2\. Tap on 'profile'.
+
+3\. Tap on 'registration' and try to input letters.
+
+*Result:* User can't input e-mail into registration field.
+
+*Expected result:* User can input e-mail into registration field.","0"
+"G11-236","group1.1","Star","User can't input a phone number with a length more than 12 numbers.","galinadvy","9 Nov 2022","9 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"No environment","G11-189","*Pre-conditions:* The app is installed.
+
+1\. Open the app.
+
+2\. Tap on 'profile'.
+
+3\. Tap on 'registration' and input test data.
+
+*Result:* User can't input a phone number with a length more than 12 numbers.
+
+*Expected result:* The user can input more than 12 numbers into the field.","0"
+"G11-234","group1.1","Star","Profile: user can't choose a language in profile settings.","galinadvy","9 Nov 2022","9 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"No environment","G11-185","*Pre-conditions:* The app is installed.
+
+1\. Open the app.
+
+2\. Tap on 'profile'.
+
+3\. Check the function of language changing.
+
+*Result:* It's not possible to change language.
+
+*Expected result:* The possibility of changing language in app is presented.","0"
+"G11-233","group1.1","Star","The button 'home' in app doesn't return user to the beginning of the list (when user scrolls down the initial page).","galinadvy","8 Nov 2022","9 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)","*Pre-conditions:* The app is installed.
+
+1\. Open the app.
+
+2\. Scroll down the initial page.
+
+3\. Tap on the button ""Home"" in app.
+
+*Result:* Nothing changes.
+
+*Expected result:* The button 'home' in app returns user to the beginning of the list.","0"
+"G11-232","group1.1","Star","The app screen doesn't change the orientation if ""portrait"" is on and the phone is turned.","galinadvy","8 Nov 2022","9 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)","*Pre-conditions:* The app is installed.
+
+1\. Open the app.
+
+2\. Check the function 'portrait' is on.
+
+3\. Rotate the phone.
+
+*Result:* The app screen does not change the orientation (but in other apps it works).
+
+*Expected result:* The app screen changes the orientation if ""portrait"" is on and the phone is turned.","0"
+"G11-235","group1.1","Star","The warning message about the short length of number is not presented before clicking on ""get a code"".","galinadvy","9 Nov 2022","9 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"No environment","G11-187","*Pre-conditions:* The app is installed.
+
+1\. Open the app.
+
+2\. Tap on 'profile'.
+
+3\. Tap on 'registration' and input test data.
+
+*Result:* The warning message about the short length of number is not presented before clicking on ""get a code"".
+
+*Expected result:* The warning message about the short length of number is presented before clicking on ""get a code"".","0"
+"G11-26","group1.1","Star","Testing Documentation Galina Fedina","galinadvy","22 Sep 2022","7 Nov 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1 Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)",,"0"
+"G11-138","group1.1","Star","Shopping cart: The possibility of removing items in 'mini shopping cart' is absent.","galinadvy","2 Oct 2022","4 Oct 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* Some items are added to the shopping cart.
+
+*STR:*
+
+1. Open the main page.
+2. Point the cursor to the shopping cart to see 'mini shopping cart' with list of chosen items.
+
+   *Result:* The possibility of removing items in 'mini shopping cart' is absent.
+
+   *Expected result:* Customer can remove items inside 'mini shopping cart'.","0"
+"G11-137","group1.1","Star","Web App Testing Galina Fedina","galinadvy","2 Oct 2022","3 Oct 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-155","group1.1","Star","Payment by credit card: Amex. The information ‘Transaction not permitted to CH' is absent and the payment is not rejected.","galinadvy","3 Oct 2022","3 Oct 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Microsoft Edge Version 105.0.1343.50","No qase tc # (only for bug)","*Pre-conditions:* All steps on pages: shopping cart, checkout, billing address, shipping address, shipping method are selected and filled with valid values.
+
+*STR:*
+
+1\.  Select the 'credit card' in section 'payment method'.
+
+2\.  Click the button 'continue', it opens page 'payment information'.
+
+3\.  Fill all fields in this label with required values from the comment in table 'check-list' (for this case it will be test number 21).
+
+*Result:* The information ‘Transaction not permitted to CH’ is absent and order has been successfully processed.
+
+*Expected result:* The information ‘Transaction not permitted to CH’ is presented and the payment is rejected.","0"
+"G11-154","group1.1","Star","Payment by credit card: Amex. The information ‘Insufficient funds' is absent and the payment is not rejected.","galinadvy","3 Oct 2022","3 Oct 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Microsoft Edge Version 105.0.1343.50","No qase tc # (only for bug)","*Pre-conditions:* All steps on pages: shopping cart, checkout, billing address, shipping address, shipping method are selected and filled with valid values.
+
+*STR:*
+
+1\. Select the 'credit card' in section 'payment method'.
+
+2\. Click the button 'continue', it opens page 'payment information'.
+
+3\. Fill all fields in this label with required values from the comment in table 'check-list' (for this case it will be test number 20).
+
+*Result:* The information ‘Insufficient funds’ is absent and order has been successfully processed.
+
+*Expected result:* The information ‘Insufficient funds’ is presented and the payment is rejected.","0"
+"G11-153","group1.1","Star","Payment by credit card: Amex. The information ‘Pick up. Stolen card' is absent and the payment is not rejected.","galinadvy","3 Oct 2022","3 Oct 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Microsoft Edge Version 105.0.1343.50","No qase tc # (only for bug)","*Pre-conditions:* All steps on pages: shopping cart, checkout, billing address, shipping address, shipping method are selected and filled with valid values.
+
+*STR:*
+
+1\.  Select the 'credit card' in section 'payment method'.
+
+2\.  Click the button 'continue', it opens page 'payment information'.
+
+3\.  Fill all fields in this label with required values from the comment in table 'check-list' (for this case it will be test number 19).
+
+*Result:* The information ‘Pick up. Stolen card’ is absent and order has been successfully processed.
+
+*Expected result:* The information ‘Pick up. Stolen card’ is presented and the payment is rejected.","0"
+"G11-152","group1.1","Star","Payment by credit card: MasterCard. The information ‘Transaction not permitted to CH' is absent and the payment is not rejected.","galinadvy","3 Oct 2022","3 Oct 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* All steps on pages: shopping cart, checkout, billing address, shipping address, shipping method are selected and filled with valid values.
+
+*STR:*
+
+1\.  Select the 'credit card' in section 'payment method'.
+
+2\.  Click the button 'continue', it opens page 'payment information'.
+
+3\.  Fill all fields in this label with required values from the comment in table 'check-list' (for this case it will be test number 10).
+
+*Result:* The information ‘Transaction not permitted to CH’ is absent and order has been successfully processed.
+
+*Expected result:* The information ‘Transaction not permitted to CH’ is presented and the payment is rejected.","0"
+"G11-151","group1.1","Star","Payment by credit card: MasterCard. The information ‘Insufficient funds' is absent and the payment is not rejected.","galinadvy","3 Oct 2022","3 Oct 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* All steps on pages: shopping cart, checkout, billing address, shipping address, shipping method are selected and filled with valid values.
+
+*STR:*
+
+1\.  Select the 'credit card' in section 'payment method'.
+
+2\.  Click the button 'continue', it opens page 'payment information'.
+
+3\.  Fill all fields in this label with required values from the comment in table 'check-list' (for this case it will be test number 9).
+
+*Result:* The information ‘Insufficient funds’ is absent and order has been successfully processed.
+
+*Expected result:* The information ‘Insufficient funds’ is presented and the payment is rejected.","0"
+"G11-147","group1.1","Star","Payment by credit card: Visa. The information 'Pick up. Stolen card' is absent and the payment is not rejected.","galinadvy","3 Oct 2022","3 Oct 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* All steps on pages: shopping cart, checkout, billing address, shipping address, shipping method are selected and filled with valid values.
+
+*STR:*
+
+1.  Select the 'credit card' in section 'payment method'.
+2.  Click the button 'continue', it opens page 'payment information'.
+3. Fill all fields in this label with required values from the comment in table 'check-list' (for this case it is test number 3).
+
+*Result:* The information 'Pick up. Stolen card' is absent and order has been successfully processed.
+
+*Expected result:* The information 'Pick up. Stolen card' is presented and the order is rejected.","0"
+"G11-148","group1.1","Star","Payment by credit card: Visa. The information ‘Insufficient funds' is absent and the payment is not rejected.","galinadvy","3 Oct 2022","3 Oct 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* All steps on pages: shopping cart, checkout, billing address, shipping address, shipping method are selected and filled with valid values.
+
+*STR:*
+
+1\. Select the 'credit card' in section 'payment method'.
+
+2\. Click the button 'continue', it opens page 'payment information'.
+
+3\. Fill all fields in this label with required values from the comment in table 'check-list' (for this case it will be test number 4).
+
+*Result:* The information ‘Insufficient funds’ is absent and order has been successfully processed.
+
+*Expected result:* The information ‘Insufficient funds’ is presented and the payment is rejected.","0"
+"G11-149","group1.1","Star","Payment by credit card: Visa. The information ‘Transaction not permitted to CH' is absent and the payment is not rejected.","galinadvy","3 Oct 2022","3 Oct 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* All steps on pages: shopping cart, checkout, billing address, shipping address, shipping method are selected and filled with valid values.
+
+*STR:*
+
+1. Select the 'credit card' in section 'payment method'.
+
+   2. Click the button 'continue', it opens page 'payment information'.
+
+   3. Fill all fields in this label with required values from the comment in table 'check-list' (for this case it will be test number 5).
+
+*Result:* The information ‘Transaction not permitted to CH’ is absent and order has been successfully processed.
+
+*Expected result:* The information ‘Transaction not permitted to CH’ is presented and the payment is rejected.","0"
+"G11-150","group1.1","Star","Payment by credit card: MasterCard. The information ‘Pick up. Stolen card' is absent and the payment is not rejected.","galinadvy","3 Oct 2022","3 Oct 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Microsoft Edge Version 105.0.1343.50","No qase tc # (only for bug)","*Pre-conditions:* All steps on pages: shopping cart, checkout, billing address, shipping address, shipping method are selected and filled with valid values.
+
+*STR:*
+
+1\. Select the 'credit card' in section 'payment method'.
+
+2\. Click the button 'continue', it opens page 'payment information'.
+
+3\. Fill all fields in this label with required values from the comment in table 'check-list' (for this case it will be test number 8).
+
+*Result:* The information ‘Pick up. Stolen card’ is absent and order has been successfully processed.
+
+*Expected result:* The information ‘Pick up. Stolen card’ is presented and the payment is rejected.","0"
+"G11-146","group1.1","Star","Shopping cart: The button 'checkout' opens the page 'Sign in'.","galinadvy","3 Oct 2022","3 Oct 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* The shopping cart is filled and the check-box with service terms is marked. 
+
+*STR:*
+
+1.  Click the button 'checkout'.
+
+*Result:* The button 'checkout' opens the page 'Sign in'.
+
+*Expected result:* The button 'checkout' opens the page with methods of payment.","0"
+"G11-145","group1.1","Star","Shopping cart: Customer can't go to payment page in case when check box 'service terms' is not marked.","galinadvy","3 Oct 2022","3 Oct 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* The shopping cart is filled.
+
+*STR:*
+
+1.  Leave the check box 'service terms' empty.
+2.  Click the button 'checkout'.
+
+*Result:* Customer can't go to payment page in case when check box 'service terms' is not marked.
+
+*Expected result:* Customer can go to payment page in case when check box 'service terms' is not marked.","0"
+"G11-144","group1.1","Star","Shopping cart: The field 'Zip / postal code' doesn't have warning message in case of filling by Latin letters.","galinadvy","3 Oct 2022","3 Oct 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* Open the shopping cart.
+
+*STR:*
+
+1.  Fill the field 'Zip / postal code' by invalid values - Latin letters.
+
+*Result:* The field 'Zip / postal code' doesn't have warning message in case of filling by Latin letters.
+
+*Expected result:* The field 'Zip / postal code' has warning message in case of filling by Latin letters.","0"
+"G11-143","group1.1","Star","Shopping cart: The field 'state/province' has a dropdown list not only for US.","galinadvy","3 Oct 2022","3 Oct 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* Open the shopping cart.
+
+*STR:*
+
+1. Choose Canada in dropdown list in field 'country'.
+2. Click the field 'state/province'.
+
+*Result:* The field 'state/province' has a dropdown list for Canada also.
+
+*Expected result:* The field 'state/province' has a dropdown list only for US.","0"
+"G11-142","group1.1","Star","Shopping cart: Customer cannot delete chosen items via the button 'remove'.","galinadvy","3 Oct 2022","3 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* The shopping cart is filled.
+
+*STR:*
+
+1. Open the shopping cart.
+2. Choose some items to deleting.
+3. Click the button 'remove'.
+
+*Result:* The button 'remove' is absent.
+
+*Expected result:* Customer can delete chosen items via the button 'remove' in shopping cart.","0"
+"G11-141","group1.1","Star","Shopping cart: The total price has the same value when customer changes the quantity of item inside shopping cart.","galinadvy","3 Oct 2022","3 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* Shopping cart is filled.
+
+*STR:*
+
+1.  Open the shopping cart with item.
+2.  Increase the amount of items.
+
+*Result:* The total price has the same value when customer changes the quantity of items inside shopping cart.
+
+*Expected result:* The total price is recounted automatically when customer changes the quantity of item inside shopping cart.","0"
+"G11-140","group1.1","Star","Shopping cart: 'Order progress' is absent when shopping cart has items inside.","galinadvy","3 Oct 2022","3 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* Open the initial page.
+
+*STR:*
+
+1. Open the empty shopping cart and check the section 'order progress'.
+2. Add some item into the shopping cart.
+3. Open the filled shopping cart.
+
+*Result:* 'Order progress' is absent when shopping cart has items inside.
+
+*Expected result:* 'Order progress' is presented when shopping cart isn't empty.","0"
+"G11-139","group1.1","Star","Shopping cart: The button 'add to cart' opens the page of chosen item in 'desktops' section to customize it.","galinadvy","3 Oct 2022","3 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1, Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","*Pre-conditions:* Go to the 'desktops' section via menu 'class' on the initial page.
+
+*STR:*
+
+1. Choose some available item and click the button 'add to cart'.
+
+*Result:* The button 'add to cart' opens the page of chosen item in 'desktops' section to customize it.
+
+*Expected result:* The button 'add to cart' adds all items to the shopping cart by one clicking.","0"
+"G11-43","group1.1","","Add Customer: The button 'delete customer' doesn't exist on the initial page.","galinadvy","23 Sep 2022","23 Sep 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1 Google ChromeVersion 105.0.5195.102","G11-146","**Description**
+
+*Pre-conditions:* 
+
+*STR:*
+
+1. Open the initial page.
+2. Check the presence of active button 'delete customer'.
+
+   *Result:* The button 'delete customer' is not presented on the initial page.
+
+   *Expected result:* The button 'delete customer' is presented on the initial page.","0"
+"G11-40","group1.1","","Add Customer: Comma is not allowed to the field with address.","galinadvy","23 Sep 2022","23 Sep 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1 Google ChromeVersion 105.0.5195.102","G11-145","**Description**
+
+*Pre-conditions:* The rest of the fields can be left empty or filled by any values.
+
+*STR:*
+
+1. Open the page 'Add Customer'
+2. Input the valid values with comma into the field 'enter your address'.
+
+   *Result:* This field has a message 'Special characters are not allowed'.
+
+   *Expected result:* Symbols dot and comma are allowed to this field according to requirements.","0"
+"G11-39","group1.1","","Add Customer: Dot is not allowed to the field with address.","galinadvy","23 Sep 2022","23 Sep 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1 Google ChromeVersion 105.0.5195.102","G11-144","**Description**
+
+*Pre-conditions:* The rest of the fields can be left empty or filled by any values.
+
+*STR:*
+
+1. Open the page 'Add Customer'
+2. Input the valid values with dot into the field 'enter your address'.
+
+   *Result:* This field has a message 'Special characters are not allowed'.
+
+   *Expected result:* Symbols dot and comma are allowed to this field according to requirements.","0"
+"G11-35","group1.1","","Initial page: the active buttons have no descriptions in hamburger menu","galinadvy","23 Sep 2022","23 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1 Google ChromeVersion 105.0.5195.102","No qase tc # (only for bug)","**Description**
+
+*Pre-conditions:* Look to the check-list
+
+*STR:*
+
+1. Open the initial page.
+2. Click the button 'hamburger menu'.
+
+   *Result:* The active buttons have no descriptions in hamburger menu.
+
+   *Expected result:* All active buttons have description in hamburger menu like on the initial page.","0"
+"G11-34","group1.1","","Add Customer: the field 'Mobile Number' has limit","galinadvy","23 Sep 2022","23 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1 Google ChromeVersion 105.0.5195.102","G11-142","**Description**
+
+*Pre-conditions:* The rest of the fields on this page can be left empty or be filled with any values. Valid values for the field 'Mobile Number' are numbers.
+
+*STR:*
+
+1. Open the page 'Add Customer'
+2. Input more than 12 numbers into the field 'Mobile Number'.
+
+   *Result:* The field 'Mobile Number' can't be filled more than 12 numbers.
+
+   *Expected result:* The field 'Mobile Number' has no limits for length according to requirements.","0"
+"G11-31","group1.1","","Add Customer: The message 'Numbers are not allowed' in the field 'FirstName' with Cyrillic letters.","galinadvy","22 Sep 2022","22 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1 Google ChromeVersion 105.0.5195.102","G11-100","**Description**
+
+*Pre-conditions:* The rest of fields can be left empty or filled by any values.
+
+*STR:*
+
+1. Open the page 'Add Customer'.
+2. Input Cyrillic letters into the field 'FirstName'.
+
+   *Result:* The message 'Numbers are not allowed' is presented.
+
+   *Expected result:* The message 'Cyrillic are not allowed'.","0"
+"G11-28","group1.1","","Add Customer: The button 'reset' doesn't delete information about errors","galinadvy","22 Sep 2022","22 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1 Google ChromeVersion 105.0.5195.102","G11-104","**Description**
+
+*Pre-conditions:* Some fields have valid values and some have error-messages.
+
+*STR:*
+
+1. Open the page 'Add Customer'
+
+2. Fill the fields as it is written in pre-conditions.
+
+3. Click the 'reset' button.
+
+   *Result:* The button 'reset' deletes only filled information from all fields.
+
+   *Expected result:* The button 'reset' deletes information from all fields and errors' messages also.","0"
+"G11-30","group1.1","","Add Customer: The required fields aren't marked with '*'","galinadvy","22 Sep 2022","22 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro Version 21H1 Google ChromeVersion 105.0.5195.102","G11-103","**Description**
+
+*Pre-conditions:* open the link <https://demo.guru99.com/telecom/addcustomer.php>
+
+*STR:* 
+
+1. Open the page 'Add Customer'
+
+*Result:* The required fields are not marked with '\*'
+
+*Expected result:* The required fields have to be marked by '\*'
+
+
+","0"

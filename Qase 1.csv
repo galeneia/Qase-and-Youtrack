@@ -1,0 +1,94 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+,,,,,,,,,,,,,,,,,,,,9,1,"Testing Documentation Galina Fedina",1
+92,"Add Customer: Click on the logo on the initial page reloads the page",,"Open the page https://demo.guru99.com/telecom/index.html",,,low,minor,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click the button 'Guru99Telecom' in the header
+","1. The page will be reloaded
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+93,"Add Customer: Click the hamburger-menu opens menu with active buttons",,"open the page https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click on the hamburger-menu
+","1. Click the hamburger-menu opens the active buttons
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+94,"Add Customer: Click the button 'Add Customer' via hamburger menu opens the relevant page",,"Open the link https://demo.guru99.com/telecom/index.html",,,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click the hamburger menu
+2. Click the button 'Add Customer'
+","1. It opens the active buttons
+2. The button 'Add Customer' opens the relevant page
+","1. 
+2. 
+",,,9,1,"Testing Documentation Galina Fedina",
+95,"Add Customer: Background Check",,"Open the link https://demo.guru99.com/telecom/addcustomer.php",,,low,trivial,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click on radio buttons in Background Check
+","1. Only one button will be available for choosing
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+96,"Add Customer: First Name (Latin letters, unrestricted quantity of symbols)",,"Open the link https://demo.guru99.com/telecom/addcustomer.php",,,high,undefined,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input only Latin letters into the field ""FirstName""
+","1. The name is correct
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+97,"Add Customer: First name (numbers, unrestricted quantity of symbols)",,"Open the link https://demo.guru99.com/telecom/addcustomer.php",,,medium,undefined,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input numbers into the field FirstName
+","1. The message ""Numbers are not allowed"" is presented
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+98,"Add Customer: First name (special characters, unrestricted quantity of symbols)",,"Open the link https://demo.guru99.com/telecom/addcustomer.php",,,medium,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input special characters into the field FirstName
+","1. The message ""Special characters are not allowed"" is presented
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+99,"Add Customer: Click the button 'add customer' on the initial page opens the relevant page",,"Open the link https://demo.guru99.com/telecom/index.html",,,high,undefined,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click the button 'add customer' on the initial page
+","1. The button opens the relevant page
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+100,"Add Customer: First name (Cyrillic letters, unrestricted quantity of symbols)",,"Open the link https://demo.guru99.com/telecom/addcustomer.php",,,medium,undefined,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Input Cyrillic letters into the field FirstName
+","1. The message 'Cyrillic are not allowed' is presented
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+101,"Add Customer: First name (numbers+Latin letters+special characters; unrestricted quantity of symbols)",,"Open the link",,,medium,undefined,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input numbers+Latin letters+special characters into the field FirstName
+","1. Special characters are not allowed
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+102,"Add Customer: The message 'Customer name must not be blank' is presented when 'First name' is empty",,"Open the link https://demo.guru99.com/telecom/addcustomer.php",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,classic,"1. Do not input any symbols into the field FirstName
+","1. The message 'Customer name must not be blank' is presented
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+103,"Add Customer: GUI testing - below all fields on the page 'Add Customer' must be special symbol '*'",,"Open the link https://demo.guru99.com/telecom/addcustomer.php",,,low,undefined,functional,undefined,is-not-automated,actual,no,unknown,classic,"1. Open the page 'Add Customer'
+","1. Below all fields on the page 'Add Customer' must be special symbol '\*'
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+104,"Add Customer: The button 'reset' deletes information from all fields and errors' messages",,,,,medium,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Fill all fields and click he button 'reset'
+","1. The button 'reset' deletes information from all fields, but it doesn't work for errors' messages
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+105,"Add Customer: The message 'Please fill all fields' is presented when all fields are empty",,"Open the link https://demo.guru99.com/telecom/addcustomer.php",,,high,undefined,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Leave all fields empty and click on the any empty place
+","1. The message 'Please fill all fields' is presented
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+106,"Add Customer: the button 'Submit' adds user to database (with valid values only)",,"Open the link https://demo.guru99.com/telecom/addcustomer.php",,,high,undefined,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Fill all fields with valid values
+","1. The button 'Submit' saves an user in database
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+107,"Add Customer: Customer ID must have 6 numbers",,"Open the link https://demo.guru99.com/telecom/addcustomer.php",,,undefined,undefined,functional,positive,is-not-automated,actual,no,unknown,classic,"1. The user ID is presented on the screen after submitting
+","1. User ID has 6 numbers
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+108,"Add Customer: Message 'Please Note Down Your Customer ID' is presented on the screen when user is added to database",,"Open the link https://demo.guru99.com/telecom/addcustomer.php",,,undefined,undefined,functional,positive,is-not-automated,actual,no,unknown,classic,"1. The user is added to database and the information with user ID is presented on the screen
+","1. The message 'Please Note Down Your Customer ID' is presented on the screen
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+109,"Add Customer: Click the button 'home' under customer ID returns customer to the initial page",,"Open the link https://demo.guru99.com/telecom/addcustomer.php",,,undefined,undefined,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click the button 'home' on the page with user ID
+","1. The user will be returned to the initial page
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+142,"Add Customer: The field 'Mobile Number' isn't limited for values","Open the link https://demo.guru99.com/telecom/addcustomer.php","The rest of the fields on this page can be left empty or be filled with any values.
+Valid values for the field 'Mobile Number' are numbers.",,,medium,normal,functional,undefined,is-not-automated,actual,no,unknown,classic,"1. Open the page 'Add Customer' and input numbers into the field 'Mobile Number'
+","1. The field has no limits for length
+","1. Input more than 12 numbers
+",,,9,1,"Testing Documentation Galina Fedina",
+144,"Add Customer: Dot symbol is not allowed to the field 'enter your address' with valid values",,"The rest of fields can be left empty or filled by any values.",,,medium,normal,functional,undefined,is-not-automated,actual,no,unknown,classic,"1. Input the valid values with dot into the field 'enter your address'.
+","1. Symbols dot and comma are allowed to this field.
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+145,"Add Customer: Comma symbol is not allowed to the field 'enter your address' with valid values.",,"The rest of fields can be left empty or filled by any values.",,,medium,normal,functional,undefined,is-not-automated,actual,no,unknown,classic,"1. Input the valid values with comma into the field 'enter your address'.
+","1. Symbols dot and comma are allowed to this field.
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
+146,"Add Customer: The button 'Delete Customer' exists on the initial page.",,,,,low,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Look at the initial page and check presence of the active button 'delete customer'.
+","1. The button 'delete customer' is presented on the initial page.
+","1. 
+",,,9,1,"Testing Documentation Galina Fedina",
